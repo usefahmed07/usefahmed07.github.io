@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="assets/favicon.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Youssef Ahmed — Software Engineer" />
+    <meta name="keywords" content="software engineer, Python, JavaScript, Node.js, Docker, APIs" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Youssef Ahmed">
+    <meta property="og:description" content="Software Engineer experienced in building scalable services and clean architectures.">
+    <meta property="og:image" content="assets/me.jpg">
+    <meta property="og:url" content="https://your-website-url.com">
+    <meta property="og:site_name" content="Youssef Ahmed">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Youssef Ahmed">
+    <meta name="twitter:description" content="Backend systems engineer. Passionate about system design, backend services, and building meaningful software.">
+    <meta name="twitter:image" content="assets/me.jpg">
+
+    <link rel="apple-touch-icon" href="assets/icon.png" />
+    <title>Youssef Ahmed</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Youssef Ahmed",
+      "url": "https://your-website-url.com",
+      "image": "assets/me.jpg",
+      "email": "youssef.ahmed.hamaza@gmail.com",
+      "jobTitle": "Software Engineer",
+      "description": "Software systems engineer experienced in building scalable services and APIs.",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "GitHub",
+        "sameAs": "https://github.com"
+      },
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Software Engineer"
+      },
+      "knowsAbout": [
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Go",
+        "React.js",
+        "Node.js",
+        "Docker",
+        "System Design",
+        "API Design",
+        "Software Development"
+      ],
+      "knowsLanguage": ["English"],
+      "sameAs": [
+        "https://github.com/usefahmed07",
+        "https://www.linkedin.com/in/youssef-ahmed-b13658290",
+        "https://x.com/usif74"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <!-- Current Time -->
+        <span class="time" id="current-time"></span>
+
+        <!-- Introduction -->
+        <div class="intro">
+            <p>
+                <strong>Youssef Ahmed</strong> <br/><br/>
+                I build software systems,<br/>
+                read when the world is quiet, draw when it feels too loud,<br/>
+                and wander into whatever new thing sparks my curiosity.<br/>
+            </p>
+        </div>
+
+        <!-- ASCII Art Name -->
+        <div class="name">
+            <pre class="ascii-art">
+██╗  ██╗ █████╗ ███╗   ███╗███████╗ █████╗ 
+██║  ██║██╔══██╗████╗ ████║╚══███╔╝██╔══██╗
+███████║███████║██╔████╔██║  ███╔╝ ███████║
+██╔══██║██╔══██║██║╚██╔╝██║ ███╔╝  ██╔══██║
+██║  ██║██║  ██║██║ ╚═╝ ██║███████╗██║  ██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝
+            </pre>
+        </div>
+
+        <!-- Contact Links -->
+        <div class="contact-links">
+            <a href="https://github.com/usefahmed07" target="_blank" rel="noopener noreferrer" class="social-btn">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/youssef-ahmed-b13658290" target="_blank" rel="noopener noreferrer" class="social-btn">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="mailto:youssef.ahmed.hamaza@gmail.com" class="social-btn" aria-label="Email Youssef Ahmed">
+                <i class="fas fa-envelope fa-2x"></i>
+            </a>
+            <a href="https://x.com/usif74" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="X (formerly Twitter)">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Scripts -->
+    <script>
+    // Update current time every second
+    function updateTime() {
+        const now = new Date();
+        document.getElementById('current-time').textContent = now.toLocaleTimeString();
+    }
+    setInterval(updateTime, 1000);
+    updateTime();
+    </script>
+
+</body>
+</html>
